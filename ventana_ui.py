@@ -63,7 +63,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "Bienvenido al sistema de recursos"))
+        self.label.setText(_translate("MainWindow", "Bienvenido al Gestor de recursos"))
         self.label_2.setText(_translate("MainWindow", "Ingresa el codigo a evaluar:"))
         self.botton_ingresar.setText(_translate("MainWindow", "Evaluar"))
 
