@@ -69,7 +69,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                     self.data_tabla.append([i, "Invalido", "No pertenece"])
 
     def generar_tabla(self):
-        import matplotlib.pyplot as plt
         fig, ax = plt.subplots(1, 1)
         column_labels = ["Palabra", "Estado", "Token"]
         ax.axis('tight')
